@@ -1,14 +1,16 @@
 # Proyecto_dhcp
 
 - **Objetivos**
+
 En está práctica voy a implementar un servidor DHCP Linux en un contenedor y probar su funcionalidad con un cliente.
 
 - **Proceso**
+
 Normalmente empezariamos por instalar y configurar una imagen __networkboot/dhcpd__, pero en mi caso voy a utilizar una imagen ya configurada, descargandola de la pagina official 
 ```
 https://hub.docker.com/r/networkboot/dhcpd/
 ```
-Para confirar nuestro __DHCP__ empezamos creado un __**Docker-compose-yml**__ y introducimos el siguiente código 
+Para configurar nuestro __DHCP__ empezamos creado un __**Docker-compose-yml**__ y introducimos el siguiente código 
 
 ```
 version: '3.4'
