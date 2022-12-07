@@ -40,8 +40,30 @@ subnet 10.0.9.0 netmask 255.255.255.0 {
     max-lease-time 172800;
 }
 ```
-- **Conclusión**
+- **Conprobación**
 
 Una vez hecho estó ya tendríamos todo listo para comenzar a usar nuestro servidor DHCP
 
 ![This is an image](https://github.com/Jacobo1234556/Proyecto_dhcp/blob/main/Escritorio/Proyecto_DHCP/Imagenes/Captura%20de%20pantalla%20de%202022-11-30%2020-14-01.png)
+
+Para comprobar que funciona lo que voy a hacer es, desde una maquina virtual, voy a pedir una ip dhcp a mi servidor de Docker.
+
+Primero comienzo poniendo mi maquina en modo bridge y elimino la ip del router de clase con el comando __ipconfig/release__ 
+
+Ahora veo la mac del equipo con el comando __getmac__ y la introduco en mi erchivo dhcp.conf  y le doy una ip fija para la maquina de la siguiente manera.
+
+```
+
+  group {
+
+     default-lease-time 604800;
+     max-lease-time 691200;
+
+     host apache {
+         hardware ethernet 08:00:27:62:43:8A;
+         fixed-address 10.0.9.201;
+     }
+
+  }
+```
+Si hemos ehco todo bien nuestra maquina habra recibido la ip que le hemos indicado, en mi caso, 10.0.9.201.
