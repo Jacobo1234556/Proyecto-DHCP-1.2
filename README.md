@@ -50,7 +50,7 @@ Para comprobar que funciona lo que voy a hacer es, desde una maquina virtual, vo
 
 Primero comienzo poniendo mi maquina en modo bridge y elimino la ip del router de clase con el comando __ipconfig/release__ 
 
-Ahora veo la mac del equipo con el comando __getmac__ y la introduco en mi erchivo dhcp.conf  y le doy una ip fija para la maquina de la siguiente manera.
+Ahora veo la mac del equipo con el comando __getmac__ y la introduco en mi archivo dhcp.conf  y le doy una ip fija para la maquina de la siguiente manera.
 
 ```
 
