@@ -68,7 +68,7 @@ Ahora veo la mac del equipo con el comando __getmac__ y la introduco en mi archi
 
   }
 ```
-Si hemos ehco todo bien nuestra maquina habra recibido la ip que le hemos indicado, en mi caso, 10.0.9.201
+Si hemos hehco todo bien nuestra maquina habra recibido la ip que le hemos indicado, en mi caso, 10.0.9.201
 
 
 ![This is an image](https://github.com/Jacobo1234556/claseASIR/blob/main/Escritorio/Proyecto_DHCP/Imagenes/Captura%20de%20pantalla%20de%202022-12-07%2018-07-59.png)
