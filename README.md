@@ -42,7 +42,7 @@ subnet 10.0.9.0 netmask 255.255.255.0 {
     max-lease-time 172800;
 }
 ```
-- **Conprobación**
+- **Comprobación**
 
 Una vez hecho estó ya tendríamos todo listo para comenzar a usar nuestro servidor DHCP
 
