@@ -41,3 +41,7 @@ subnet 10.0.9.0 netmask 255.255.255.0 {
 }
 ```
 - **Conclusión**
+
+Una vez hecho estó ya tendríamos todo listo para comenzar a usar nuestro servidor DHCP
+
+![This is an image](https://github.com/Jacobo1234556/Proyecto_dhcp/blob/main/Escritorio/Proyecto_DHCP/Imagenes/Captura%20de%20pantalla%20de%202022-11-30%2020-14-01.png)
